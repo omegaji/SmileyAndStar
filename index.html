@@ -1,0 +1,73 @@
+
+
+
+<html>
+  <h2>
+  	Hello there, this piece of "art" is a collaborative effort made by 2 "stars"
+  </h2>
+</html>
+<script>
+
+function setup() {
+  createCanvas(500, 500);
+
+  background(143, 0, 255);
+// Face
+ 	fill(255, 255, 0);
+  circle(150, 150, 100);
+// HAT  
+ // fill();
+    fill(230,39,2);
+
+  rect(80,110,140,4);
+  fill(230,39,2);
+  arc(150,110,80,60,PI,0);
+  
+// EYEBROWS
+  fill(0,0,0);
+  stroke(0,0,0);
+  strokeWeight(3);
+  line(120,115,144,123);
+  line(170,115,150,123);
+// Smiley
+  fill(255,255,255);
+  ellipse(130,133,13,20);
+  ellipse(165,133,13,20);
+  arc(150, 160, 80, 60, 0, PI);
+  
+  fill(255, 0, 0);
+ // nose
+  point(150,150);
+  
+   fill(255, 0, 0);
+
+  stroke(173,216,230);
+  strokeWeight(16);
+  point(300,300); // center
+  point(400,350); // right to center (m)
+  point(200,350); // left to center (m)
+  point(200,450); //left from center (b)
+  point(400,450)// right from center (b)
+  
+  line(300,300,200,450)
+  line(200,450,300,300);
+  line(300,300,400,450);
+  line(400,450,200,350);
+  line(200,350,400,350);
+  line(400,350,200,450)
+  
+  
+  //line(30, 30, 60, 60);
+  //line(30, 30, 30, 70);
+  //line(30,70,
+  //line(30, 70, 58,35);
+  //line(58,35,50,73)
+  
+  
+  	
+}
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
